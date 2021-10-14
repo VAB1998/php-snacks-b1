@@ -1,0 +1,17 @@
+section{
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+#snack_3 .gray_box{
+    background-color: gray;
+}
+
+#snack_3 .green_box{
+    background-color: green;
+}
+
+#snack_3 [class$="_box"]{
+    width: 150px;
+    height: 150px;
+}
